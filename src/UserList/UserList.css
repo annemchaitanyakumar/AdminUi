@@ -1,0 +1,113 @@
+/* UserList.css */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-radius: 20px;
+}
+
+th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  font-size: 20px;
+
+  background-color: #f2f2f2;
+}
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.selected {
+  background-color: #e0e0e0;
+}
+
+/* Normal row styles */
+tr {
+  transition: background-color 0.2s; /* Add a smooth transition effect */
+}
+
+/* Hovered row styles */
+tr:hover {
+  background-color: rgb(110, 108, 108) !important;
+  cursor: pointer;
+  /* transform: scale(0.98); */
+  transform: transform 0.2s;
+}
+
+/* Hovered data row styles (excluding the heading row) */
+.data-row:hover {
+  background-color: rgb(110, 108, 108);
+  cursor: pointer;
+  transform: scale(0.98); /* Scale down to 95% of the original size */
+  transition: transform 0.74s; /* Add a smooth transition effect for scaling */
+}
+
+/* UserList.css */
+
+/* Edit button styles */
+.edit-button {
+  background-color: lightseagreen; /* Blue color for the Edit button */
+  color: #fff;
+  margin-right: 5px;
+}
+
+/* Delete button styles */
+.delete-button {
+  background-color: #e74c3c; /* Red color for the Delete button */
+  color: #fff;
+}
+
+.delete-button:hover {
+  background-color: lightseagreen;
+}
+
+/* UserList.css */
+
+/* Styles for the Save button */
+.save-button {
+  background-color: #4caf50; /* Green background color */
+  color: white; /* White text color */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: none; /* Remove button border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  font-size: 16px; /* Adjust font size as needed */
+  transition: background-color 0.2s; /* Add a smooth transition effect */
+}
+
+/* Style the button on hover */
+.save-button:hover {
+  background-color: #45a049; /* Darker green background on hover */
+}
+
+/* UserList.css */
+
+/* Your existing styles for all screen sizes */
+
+/* Responsive styles for screens up to 768px wide (e.g., mobile) */
+@media screen and (max-width: 768px) {
+  /* Adjust component styles for smaller screens here */
+  table {
+    font-size: 14px; /* Decrease font size for smaller screens */
+  }
+}
+
+/* Responsive styles for screens between 769px and 1024px wide (e.g., tablet) */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Adjust component styles for medium-sized screens here */
+  table {
+    font-size: 16px; /* Slightly larger font size for tablet screens */
+  }
+}
+
+/* Responsive styles for screens larger than 1024px wide (e.g., desktop) */
+@media screen and (min-width: 1025px) {
+  /* Adjust component styles for larger screens here */
+  table {
+    font-size: 18px; /* Increase font size for desktop screens */
+  }
+}
+
+/* //-------------------------------------------------------------------------------------------------------------------------------- */

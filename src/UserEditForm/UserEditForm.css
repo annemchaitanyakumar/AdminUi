@@ -1,0 +1,72 @@
+/* UserEditForm.css */
+.user-edit-form {
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin: 16px;
+  max-width: 400px;
+}
+
+#edit-user {
+  color: white;
+  font-family: sans-serif;
+  font-size: 38px;
+  background-color: rgb(59, 58, 58);
+  /* display: inline-block; */
+  text-underline-position: below;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.edit-input {
+  background-color: #b6b8b6;
+}
+
+.edit-name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+input {
+  width: 30%;
+  padding: 8px;
+  margin-bottom: 16px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+button.cancel {
+  background-color: #ccc;
+}
+
+/* UserList.css */
+
+/* Styles for the Save button */
+.save-button {
+  background-color: #4caf50; /* Green background color */
+  color: white; /* White text color */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: none; /* Remove button border */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer;
+  font-size: 16px; /* Adjust font size as needed */
+  transition: background-color 0.2s; /* Add a smooth transition effect */
+
+  /* Additional styles, e.g., margin, hover effect, etc. */
+}
+
+/* Style the button on hover */
+.save-button:hover {
+  background-color: #45a049; /* Darker green background on hover */
+}

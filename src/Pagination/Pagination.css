@@ -1,0 +1,42 @@
+/* Pagination.css */
+
+.pagination {
+  text-align: center;
+  margin-top: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: inline-block;
+}
+
+li {
+  display: inline;
+  margin: 0 5px;
+}
+
+.pagebuttons {
+  text-decoration: none;
+  background-color: orange;
+  color: #fff;
+  padding: 8px 12px;
+  border: 2px solid orange;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: orangered; /* Change background color on hover */
+}
+
+button.active {
+  background-color: orangered; /* Change background color when the button is active */
+}
+
+button.disabled {
+  background-color: #ccc;
+  color: #fff;
+  cursor: not-allowed;
+}
